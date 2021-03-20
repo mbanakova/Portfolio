@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mbanakova/mbanakova.github.io/portfolio/static/css/main.efac34dc.chunk.css",
+    "main.js": "/mbanakova/mbanakova.github.io/portfolio/static/js/main.3b45601b.chunk.js",
+    "main.js.map": "/mbanakova/mbanakova.github.io/portfolio/static/js/main.3b45601b.chunk.js.map",
+    "runtime-main.js": "/mbanakova/mbanakova.github.io/portfolio/static/js/runtime-main.6a5e64bf.js",
+    "runtime-main.js.map": "/mbanakova/mbanakova.github.io/portfolio/static/js/runtime-main.6a5e64bf.js.map",
+    "static/css/2.ff6ed78d.chunk.css": "/mbanakova/mbanakova.github.io/portfolio/static/css/2.ff6ed78d.chunk.css",
+    "static/js/2.268998d7.chunk.js": "/mbanakova/mbanakova.github.io/portfolio/static/js/2.268998d7.chunk.js",
+    "static/js/2.268998d7.chunk.js.map": "/mbanakova/mbanakova.github.io/portfolio/static/js/2.268998d7.chunk.js.map",
+    "index.html": "/mbanakova/mbanakova.github.io/portfolio/index.html",
+    "static/css/2.ff6ed78d.chunk.css.map": "/mbanakova/mbanakova.github.io/portfolio/static/css/2.ff6ed78d.chunk.css.map",
+    "static/css/main.efac34dc.chunk.css.map": "/mbanakova/mbanakova.github.io/portfolio/static/css/main.efac34dc.chunk.css.map",
+    "static/js/2.268998d7.chunk.js.LICENSE.txt": "/mbanakova/mbanakova.github.io/portfolio/static/js/2.268998d7.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/mbanakova/mbanakova.github.io/portfolio/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a5e64bf.js",
+    "static/css/2.ff6ed78d.chunk.css",
+    "static/js/2.268998d7.chunk.js",
+    "static/css/main.efac34dc.chunk.css",
+    "static/js/main.3b45601b.chunk.js"
+  ]
+}
