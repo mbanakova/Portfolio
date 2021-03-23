@@ -1,37 +1,56 @@
-import React from 'react';
-import './Footer.scss';
-import { Link } from 'react-router-dom';
-import { HiOutlineMail, HiOutlinePhone, } from 'react-icons/hi';
-import { FaTelegramPlane, FaGithub } from 'react-icons/fa';
+import React from "react";
+import "./Footer.scss";
+import { Link } from "react-router-dom";
+import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
+import { FaTelegramPlane, FaGithub } from "react-icons/fa";
 
 function Footer() {
+  let contacts = [
+    {
+      type: "email",
+      link: "mailto:mbanakova@yandex.ru",
+      icon: <HiOutlineMail />
+    },
+    {
+      type: "phone",
+      link: "tel:+79268757522",
+      icon: <HiOutlinePhone />
+    },
+    {
+      type: "telegram",
+      link: "https://t.me/mbanakova",
+      icon: <FaTelegramPlane />
+    },
+    {
+      type: "github",
+      link: "https://github.com/mbanakova",
+      icon: <FaGithub />
+    }
+  ];
   return (
-    <div className='footer-container'>
-      <section className='social-media'>
-        <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              Maria Banakova
-            </Link>
-          </div>
-          <small className='website-rights'>Portfolio © 2021</small>
-          <div className='social-icons'>
-            <a className='social-icon-link' href='mailto:mbanakova@yandex.ru' target='_blank' aria-label='email' rel='noreferrer'>
-              <HiOutlineMail />
-            </a>
-            <a className='social-icon-link' href='tel:+79268757522' target='_blank' aria-label='phone' rel='noreferrer'>
-              <HiOutlinePhone />
-            </a>
-            <a className='social-icon-link' href='https://t.me/mbanakova' target='_blank' aria-label='telegram' rel='noreferrer'>
-              <FaTelegramPlane />
-            </a>
-            <a className='social-icon-link' href='https://github.com/mbanakova' target='_blank' aria-label='github' rel='noreferrer'>
-              <FaGithub />
-            </a>
-          </div>
+    <footer className="footer">
+      <div className="footer__container">
+        <Link to="/portfolio/" className="footer__author">
+          Maria Banakova
+        </Link>
+        <div className="footer__copyright">Portfolio © 2021</div>
+        <div className="footer__social">
+          {contacts.map(contact => {
+            return (
+              <a
+                className="footer__social-link"
+                href={contact.link}
+                target="_blank"
+                aria-label={contact.type}
+                rel="noreferrer"
+              >
+                {contact.icon}
+              </a>
+            );
+          })}
         </div>
-      </section>
-    </div>
+      </div>
+    </footer>
   );
 }
 

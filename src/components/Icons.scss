@@ -1,70 +1,70 @@
 i {
-    color: rgba(0, 0, 0, .5);
-    transition: .5s;
-    padding: 0 5px;
-    user-select: none;
-    cursor: default;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  padding: 0 5px;
+  user-select: none;
+  cursor: default;
 
-    &:hover {
-        transition: 0s;
-        color: #6ee6fc;
-        text-shadow: 0 0 100px #6ee6fc;
-    }
+  &:hover {
+    transition: 0s;
+    color: #6ee6fc;
+    text-shadow: 0 0 100px #6ee6fc;
+  }
 }
 
 .intro__icons {
-    position: relative;
-    animation: slide1 80s linear infinite;
-    animation-delay: -80s;
+  position: relative;
+  animation: slide1 80s linear infinite;
+  animation-delay: -80s;
 
-    &:nth-child(2) {
-        animation: slide2 80s linear infinite;
-        animation-delay: -40s;
-    }
+  &:nth-child(2) {
+    animation: slide2 80s linear infinite;
+    animation-delay: -40s;
+  }
 }
 
 @keyframes slide1 {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 @keyframes slide2 {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-200%);
-    }
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
 }
 
 .intro__bg-icons:nth-child(even) .intro__icons {
-    animation: slide3 80s linear infinite;
-    animation-delay: -80s;
+  animation: slide3 80s linear infinite;
+  animation-delay: -80s;
 
-    &:nth-child(2) {
-        animation: slide4 80s linear infinite;
-        animation-delay: -40s;
-    }
+  &:nth-child(2) {
+    animation: slide4 80s linear infinite;
+    animation-delay: -40s;
+  }
 }
 
 @keyframes slide3 {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(100%);
-    }
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 @keyframes slide4 {
-    0% {
-        transform: translateX(-200%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }

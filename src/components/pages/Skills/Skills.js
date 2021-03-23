@@ -19,7 +19,7 @@ function Skills() {
                     <li className="skills__item"><FaSass style={{color: "#bf4080"}} /></li>
                     <li className="skills__item"><FaLess style={{color: "#1d365d"}} /></li>
                     <li className="skills__item"><FaReact style={{color: "#61dafb"}} /></li>
-                    <li className="skills__item"><img src="/images/figma.svg" alt="figma" height="80" /></li>
+                    <li className="skills__item"><img src="images/figma.svg" alt="figma" height="80" /></li>
                     <li className="skills__item"><DiPhotoshop style={{color: "#0e2555"}} /></li>
                 </ul>
             </div>
