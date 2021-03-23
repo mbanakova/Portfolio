@@ -6,7 +6,7 @@ import "./Intro.scss";
 function Intro({ title, name, description, buttonLabel, link }) {
   return (
     <>
-      <div className="intro">
+      <div className="intro" key={link}>
         <div className="intro__bg">
           <Background />
         </div>

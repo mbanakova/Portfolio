@@ -43,6 +43,7 @@ function Footer() {
                 target="_blank"
                 aria-label={contact.type}
                 rel="noreferrer"
+                key={contact.link}
               >
                 {contact.icon}
               </a>

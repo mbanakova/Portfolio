@@ -26,7 +26,7 @@ function Sertificates() {
                   <li
                     className="accordion__item"
                     onClick={() => toggle(index)}
-                    key={index}
+                    key={item.school}
                   >
                     <h3 className="accordion__header">{item.school}</h3>
                     <span className="accordion__toggle">
@@ -37,7 +37,7 @@ function Sertificates() {
                     <ul className="accordion__text">
                       {item.courses.map(course => {
                         return (
-                          <li className="accordion__course">
+                          <li className="accordion__course" key={course.link}>
                             <a className="accordion__link" href={course.link}>
                               {course.title}
                             </a>
