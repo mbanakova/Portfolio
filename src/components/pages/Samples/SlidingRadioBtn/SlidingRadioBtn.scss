@@ -1,0 +1,57 @@
+.slide {
+  & input[type="radio"] {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    outline: none;
+    background-color: rgb(31, 31, 34);
+    appearance: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.1),
+      5px 5px 10px rgba(0, 0, 0, 1),
+      inset -2px -2px 5px rgba(255, 255, 255, 0.1),
+      inset 2px 2px 5px rgba(0, 0, 0, 0.5), 0 0 0 2px #1f1f1f;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: 0;
+      width: 80px;
+      height: 40px;
+      background: linear-gradient(to top, #000000, #555555);
+      border-radius: 20px;
+      box-shadow: 0 0 0 1px #232323;
+      transform: scale(0.98, 0.98) translateY(-50%);
+      transition: 0.5s;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      top: calc(50% - 2px);
+      left: 65px;
+      width: 4px;
+      height: 4px;
+      background-color: #555555;
+      border-radius: 50%;
+      transition: 0.5s;
+    }
+
+    &:checked {
+      background-color: #6ee6fc;
+
+      &::before {
+        left: 45px;
+      }
+
+      &::after {
+        left: calc(65px + 40px);
+        background-color: #6ee6fc;
+        box-shadow: 0 0 5px #6ee6fc, 0 0 15px #6ee6fc, 0 0 30px #6ee6fc;
+      }
+    }
+  }
+}

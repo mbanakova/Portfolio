@@ -7,13 +7,20 @@ $green: #25ce4a;
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-size: 16px;
-    font-family: "PT Sans", "Arial", sans-serif;
-    background-color: rgb(31, 31, 34);
+  font-size: 16px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  background-color: rgb(31, 31, 34);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }

@@ -56,6 +56,15 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link
+                  className="nav-links"
+                  to="/portfolio/samples"
+                  onClick={closeMobileMenu}
+                >
+                  Samples
+                </Link>
+              </li>
+              <li className="nav-item">
                 <a
                   className="nav-links nav-links--github"
                   href="https://github.com/mbanakova"
