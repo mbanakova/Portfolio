@@ -1,5 +1,6 @@
 import React from "react";
 import GlassBtn from "./GlassBtn/GlassBtn";
+import GlassCards from "./GlassCards/GlassCards";
 import GradientBorder from "./GradientBorder/GradientBorder";
 import NeuMorphBtn from "./NeuMorphBtn/NeuMorphBtn";
 import "./Samples.scss";
@@ -13,6 +14,7 @@ function Samples() {
         <NeuMorphBtn />
         <SlidingRadioBtn />
         <GradientBorder />
+        <GlassCards />
       </div>
     </section>
   );

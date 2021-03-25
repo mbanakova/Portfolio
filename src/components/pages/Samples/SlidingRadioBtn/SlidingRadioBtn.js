@@ -6,7 +6,7 @@ function SlidingRadioBtn() {
     <article class="samples__sample slide">
       <h3 className="section__title">Sliding radio button</h3>
       <label>
-        <input type="radio" name="button" />
+        <input type="radio" name="button" checked />
       </label>
       <label>
         <input type="radio" name="button" />

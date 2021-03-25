@@ -7,7 +7,7 @@ function NeuMorphBtn() {
       <h3 className="section__title">Neumorphism radio buttons</h3>
       <div className="confirm__wrapper">
         <label class="confirm__label">
-          <input class="confirm__input" type="radio" name="continue" />
+          <input class="confirm__input" type="radio" name="continue" checked />
           <i class="fa fa-check" aria-hidden="true"></i>
         </label>
         <label class="confirm__label">

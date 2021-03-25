@@ -10,8 +10,10 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 80px;
 }
+
 .gradient__border {
   position: relative;
   height: 240px;
